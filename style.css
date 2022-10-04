@@ -1,0 +1,39 @@
+body{margin:0px;
+background-color:darkred;}
+
+#screenDiv{position:relative;}
+#screen{inline-size:100%;
+z-index: -1;}
+
+#div1{position:relative;
+margin-top:-61%}
+#trees{inline-size:100%;
+display:none;
+position:absolute;}
+
+#div2{text-align:center;
+position:relative;
+margin-top: 20%;}
+#button1{inline-size:11%;
+transition:all .2s ease-in-out}
+#button1:hover{transform: scale(1.17); }
+
+#div3{position: relative;
+margin-left:80%;
+margin-top:40%;
+display:none;}
+#button2{transform:rotate(-90deg);}
+
+#div4{position:relative;
+margin-top:10px;
+display:none;}
+#button3{position: absolute;
+margin-top:100%}
+
+#div5{position:relative;
+display:none;}
+
+@keyframes tran1{0%,40%{opacity: 1;background-color: darkred;}
+40%,60%{opacity: 0;background-color: black;}
+60%,100%{opacity:1;}}
+@keyframes tran2{0%,40%{opacity: 1;}40%,60%{opacity: 0;}60%,100%{opacity:1;}}
